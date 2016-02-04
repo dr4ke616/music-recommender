@@ -15,11 +15,9 @@ object Initialize extends Logging {
       .set("spark.dynamicAllocation.enabled", "true")
       .set("spark.executor.instances", conf.getString("spark.executor.instances"))
       .set("yarn.scheduler.capacity.resource-calculator", "org.apache.hadoop.yarn.util.resource.DominantResourceCalculator")
-      .set("spark.driver.memory", "1g")
-      .set("spark.executor.memory", "4g")
+      .set("spark.driver.memory", conf.getString("spark.driver.memory"))
+      .set("spark.executor.memory", conf.getString("spark.executor.memory"))
 
-    //sparkConf.registerKryoClasses(Array(classOf[CompositeSimilarity], classOf[FieldSimilarity]))
-    logInfo(s"Connecting to spark at ${conf.getString("spark.master")} with ${sparkConf.getAll}")
     new SparkContext(sparkConf)
   }
 

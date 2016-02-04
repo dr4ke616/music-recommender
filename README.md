@@ -27,3 +27,5 @@ To run and test locally:
 ```bash
 sbt run
 ```
+
+Checkout the configuration file at `src/main/resources/application.conf`. If you are running locally you may need to tweak the `driver.memory` and `executor.memory` settings.

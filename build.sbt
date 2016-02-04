@@ -7,8 +7,8 @@ mainClass in Compile := Some("MusicRecommenderApp")
 val sparkVersion = "1.6.0"
 libraryDependencies ++= Seq(
   "com.typesafe" % "config" % "1.2.0",
-  "org.apache.spark" %% "spark-core" % sparkVersion % "provided",
-  "org.apache.spark" %% "spark-mllib" % sparkVersion % "provided"
+  "org.apache.spark" %% "spark-core" % sparkVersion,
+  "org.apache.spark" %% "spark-mllib" % sparkVersion
 )
 
 val meta = """META.INF(.)*""".r
