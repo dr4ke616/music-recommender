@@ -29,3 +29,5 @@ sbt run
 ```
 
 Checkout the configuration file at `src/main/resources/application.conf`. If you are running locally you may need to tweak the `driver.memory` and `executor.memory` settings.
+
+Finally, go to [http://localhost:4040/](http://localhost:4040/) to get access to Spark UI
