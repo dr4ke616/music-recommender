@@ -4,7 +4,7 @@ Spark job music recommendation system
 
 
 ## Getting Data
-The data is hosted on [here](http://www.iro.umontreal.ca/~lisa/datasets/image_and_question_data_1obj.tar.gz). The files are too large to be checked into github, so there is a script that can download the files and store them in the appropriate directory, or upload them to an S3 bucket.
+The data is hosted on [here](http://www.iro.umontreal.ca/~lisa/datasets/profiledata_06-May-2005.tar.gz). The files are too large to be checked into github, so there is a script that can download the files and store them in the appropriate directory, or upload them to an S3 bucket.
 
 To obtain the data and copy to local directory run:
 ```bash
