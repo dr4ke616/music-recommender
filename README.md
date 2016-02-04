@@ -18,12 +18,12 @@ $ ./get_data.sh s3 <SOME_BUCKET_NAME>
 
 
 ## Build
-To build a jar file that can be submitted to a spark cluster, run:
+To build a jar file that can be submitted to a spark cluster:
 ```bash
 sbt assembly
 ```
 
-To run and test locally, run:
+To run and test locally:
 ```bash
 sbt run
 ```
