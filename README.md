@@ -1,6 +1,6 @@
 # music-recommender
 
-Spark job music recommendation system
+Spark job music recommendation system. This was based on an exercise in the awesome book [Advanced Analytics with Spark](http://shop.oreilly.com/product/0636920035091.do). This is not intended to be a production ready application but instead a learning exercise. Chapter 3 of the book, entitled *Recommending Music and the Audioscrobbler Data Set* introduces readers to a recommendation algorithm Spark supplies called [The Alternating Least Squares Recommender Algorithm](https://www.quora.com/What-is-the-Alternating-Least-Squares-method-in-recommendation-systems).
 
 
 ## Getting Data
